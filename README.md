@@ -3,10 +3,12 @@
 
 # 2018 Summer CSX RProject
 ### 7/4 第一週：
-### 課堂上：
-#### 建立個人 Github 帳號
-#### 建立本課程專用 Repository
-#### 使用 READ.md 檔
-#### 使用github紀錄學習筆記
+#### 課堂上：
+##### 建立個人 Github 帳號
+##### 建立本課程專用 Repository
+##### 使用 READ.md 檔
+##### 使用github紀錄學習筆記
 
-### 回家後：
+#### 回家後：
+##### DataCamp Introduction to R
+##### DataCamp Introduction to R
