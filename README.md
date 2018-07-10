@@ -13,6 +13,6 @@
 #### 註記：
 ##### Rstudio/Rmarkdown步驟：Rstudio、找資料夾 save、knit 成 html、回到setting、none 改成 master branch、改網址、回到記事本更改
 
-(https://yichunchloe.github.io/2018-Summer-CSX-RProject/Week1/Hw1.html) [Week1-Hw1]
+[Week1-Hw1](https://yichunchloe.github.io/2018-Summer-CSX-RProject/Week1/Hw1.html) 
 # Self Introduction
 #### 嗨！大家好！我是就讀政大財管系一年級的林奕均，希望可以在這堂課好好學習程式語言！
