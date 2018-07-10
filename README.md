@@ -11,7 +11,7 @@
 ##### DataCamp Intermediate R (practice)
 
 #### 註記：
-##### Rstudio/Rmarkdown步驟：Rstudio、找資料夾 save、knit 成 html、回到setting、none 改成 master branch、改網址（資料夾位置）、回到記事本更改[顯示名稱](顯示網址)
+##### Rstudio/Rmarkdown步驟：Rstudio、找資料夾 save、knit 成 html、回到setting、none 改成 master branch、改網址（資料夾位置）、回到記事本更改[顯示名稱]（顯示網址）
 
 [Week1-Hw1](https://yichunchloe.github.io/2018-Summer-CSX-RProject/Week1/Hw1.html) 
 # Self Introduction
