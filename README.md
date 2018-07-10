@@ -10,5 +10,5 @@
 ##### 使用github紀錄學習筆記
 
 #### 回家後：
-##### DataCamp Introduction to R
-##### DataCamp Introduction to R
+##### DataCamp Introduction to R (practice)
+##### DataCamp Intermediate R (practice)
