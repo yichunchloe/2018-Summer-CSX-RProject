@@ -12,3 +12,6 @@
 #### 回家後：
 ##### DataCamp Introduction to R (practice)
 ##### DataCamp Intermediate R (practice)
+
+#### 註記：
+##### Rstudio/Rmarkdown步驟：Rstudio、找資料夾 save、knit 成 html、回到setting、none 改成 master branch、改網址、回到記事本更改
