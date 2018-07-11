@@ -28,7 +28,9 @@
 ##### GFT8*
 ##### make a clear route to the file, for instant 
 ##### R vs RMD: different language (RMD for 作業報告)
-##### 最後一個還不會
+##### !!最後一個plot還不會
+##### !!加分任務還不會
+##### !!回家看上課錄影複習
 
 ### At Home:
 ##### [Datacamp] Cleaning with R​
