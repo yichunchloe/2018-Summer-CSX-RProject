@@ -1,18 +1,29 @@
-# 2018 Summer CSX RProject
-### 7/4 第一週：
-#### 課堂上：
-##### 建立個人 Github 帳號
-##### 建立本課程專用 Repository
-##### 使用 READ.md 檔
-##### 使用github紀錄學習筆記
 
-#### 回家後：
-##### DataCamp Introduction to R (practice)
-##### DataCamp Intermediate R (practice)
+# Self Introduction
+#### 大家好！我是就讀政大財管系一年級的林奕均，希望可以在這堂課好好學習程式語言！
 
-#### 註記：
-##### Rstudio/Rmarkdown步驟：Rstudio、找資料夾 save、knit 成 html、回到setting、none 改成 master branch、改網址（資料夾位置）、回到記事本更改[顯示名稱]（顯示網址）
+# Learning Progress:
+## 7/4 Week1:
+#### In class:
+##### 建立 Github Account
+##### Create Repository
+##### Use READ.md 
+##### Notes: Rstudio/Rmarkdown步驟：Rstudio、save in the file、knit to html、setting: none -> master branch、/Week1/Hw1.html、[Name shown]（the link）
+
+#### At Home:
+##### [DataCamp] Introduction to R 
+##### [DataCamp] Intermediate R 
 
 [Week1-Hw1](https://yichunchloe.github.io/2018-Summer-CSX-RProject/Week1/Hw1.html) 
-# Self Introduction
-#### 嗨！大家好！我是就讀政大財管系一年級的林奕均，希望可以在這堂課好好學習程式語言！
+
+## 7/11 Week2:
+#### In class:
+##### --
+##### Notes: Edit Rmarkdown to my learing notes
+
+#### At Home:
+##### [Datacamp] Cleaning with R​
+##### [Datacamp] Data manipulation in R with dplyr​
+
+
+
