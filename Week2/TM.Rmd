@@ -1,0 +1,29 @@
+---
+title: "TextMining"
+output: html_document
+---
+
+source('pttTestFunction.R')
+#https://www.ptt.cc/bbs/Gossiping/index.html
+id = c(1:10)
+URL = paste()("https://www.ptt.cc/bbs/Gossiping/index"), id, ".html"
+filename = paste()(id, ".txt"_)
+pttTestFunction(URL[1], filename[1])
+mapply(pttTestFunction, 
+       URL = URL, filename = filename)
+
+```{r}
+rm(list=ls(all.names = TRUE))
+library(NLP)
+library(tm)
+library(jiebaRD)
+library(jiebaR)
+library(RColorBrewer)
+library(wordcloud)
+filenames <- list.files(getwd(), pattern="*.txt")
+files <- lapply(filenames, readLines)
+docs <- Corpus(VectorSource(files))
+
+toSpace <- content_transformer(function(x, pattern) {
+  return (gsub(pattern, " ", x))}
+```

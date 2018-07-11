@@ -10,7 +10,7 @@
 ##### Create a Repository
 ##### To know the usage of READ.md file
 ##### [Week1-Hw1-Rmarkdown](https://yichunchloe.github.io/2018-Summer-CSX-RProject/Week1/Hw1.html) 
-##### Notes(Rstudio/Rmarkdown steps):
+#### Notes(Rstudio/Rmarkdown steps):
 ##### Rstudio/ save in the file/ knit to html/ setting: none -> master branch/ added Week1/Hw1.html/ [Name shown]（the link）
 
 ### At Home:
@@ -22,12 +22,13 @@
 ##### Introduction to Date Visualization
 ##### To know what is a Package
 ##### [Week2-Hw2-part1-DV practice](https://yichunchloe.github.io/2018-Summer-CSX-RProject/Week2/DV.html)
+##### Text Mining (make sure pttTestFunction in the same file)
 
-##### Notes: 
+#### Notes: 
 ##### Edit Rmarkdown to my learing notes Save as R file
-##### GFT8*
-##### make a clear route to the file, for instant 
-##### R vs RMD: different language (RMD for 作業報告)
+##### Set as working directory - clear route to file
+##### R vs RMD: different language (RMD for 作業報告) 
+##### Save as *GFT8*
 ##### !!最後一個plot還不會
 ##### !!加分任務還不會
 ##### !!回家看上課錄影複習
@@ -35,6 +36,9 @@
 ### At Home:
 ##### [Datacamp] Cleaning with R​
 ##### [Datacamp] Data manipulation in R with dplyr​
+
+## 7/18 Week3:
+### In class:
 
 
 
