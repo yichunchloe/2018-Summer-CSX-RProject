@@ -23,6 +23,7 @@
 ##### To know what is a Package
 ##### [Week2-Hw2-part1-DV practice](https://yichunchloe.github.io/2018-Summer-CSX-RProject/Week2/DV.html)
 ##### Text Mining (make sure pttTestFunction in the same file)
+##### [Week2-Hw2-part2-TM practice]()
 
 #### Notes: 
 ##### Edit Rmarkdown to my learing notes Save as R file

@@ -1,15 +1,4 @@
----
-title: "TM"
-output:
-  html_document: default
-  pdf_document: default
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-```{r}
-##網路爬蟲
 source('pttTestFunction.R')
 id = c(1:10)
 URL = paste0("https://www.ptt.cc/bbs/Food/index", id, ".html")
@@ -17,10 +6,7 @@ filename = paste0(id, ".txt")
 pttTestFunction(URL[1], filename[1])
 mapply(pttTestFunction, 
        URL = URL, filename = filename)
-```
 
-```{r}
-##文本清理
 rm(list=ls(all.names = TRUE))
 library(NLP)
 library(tm)
@@ -57,10 +43,7 @@ docs <- tm_map(docs, removePunctuation)
 docs <- tm_map(docs, removeNumbers)
 docs <- tm_map(docs, stripWhitespace)
 docs
-```
 
-```{r}
-##詞頻矩陣
 mixseg = worker()
 jieba_tokenizer=function(d){
   unlist(segment(d[[1]],mixseg))
@@ -70,10 +53,7 @@ freqFrame = as.data.frame(table(unlist(seg)))
 freqFrame = freqFrame[order(freqFrame$Freq,decreasing=TRUE), ]
 library(knitr)
 kable(head(freqFrame), format = "markdown")
-```
 
-```{r}
-##文字雲
 par(family=("Heiti TC Light"))
 wordcloud(freqFrame$Var1,freqFrame$Freq,
           scale=c(5,0.1),min.freq=50,max.words=150,
@@ -81,4 +61,4 @@ wordcloud(freqFrame$Var1,freqFrame$Freq,
           rot.per=.1, colors=brewer.pal(8, "Dark2"),
           ordered.colors=FALSE,use.r.layout=FALSE,
           fixed.asp=TRUE)
-```
+

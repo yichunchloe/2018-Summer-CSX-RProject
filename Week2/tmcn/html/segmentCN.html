@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Sengment a sentence.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for segmentCN {tmcn}"><tr><td>segmentCN {tmcn}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Sengment a sentence.</h2>
+
+<h3>Description</h3>
+
+<p>A function segment Chinese sentence into words.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+segmentCN(strwords, package = c("jiebaR", "Rwordseg"), nature = FALSE, 
+  nosymbol = TRUE, useStopDic = FALSE, returnType = c("vector", "tm"))
+insertWords(inswords, package = c("jiebaR", "Rwordseg"))
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>strwords</code></td>
+<td>
+<p>A string vector of Chinese sentences in UTF-8.</p>
+</td></tr>
+<tr valign="top"><td><code>package</code></td>
+<td>
+<p>Use which package, &quot;jiebaR&quot; or &quot;Rwordseg&quot;?</p>
+</td></tr>
+<tr valign="top"><td><code>nature</code></td>
+<td>
+<p>Whether to recognise the nature of the words.</p>
+</td></tr>
+<tr valign="top"><td><code>nosymbol</code></td>
+<td>
+<p>Whether to keep symbols in the sentence.</p>
+</td></tr>
+<tr valign="top"><td><code>useStopDic</code></td>
+<td>
+<p>Whether to use the default stop words.</p>
+</td></tr>
+<tr valign="top"><td><code>returnType</code></td>
+<td>
+<p>Default is a string vector but we also can choose 'tm' 
+to output a single string separated by space so that it can be used by <code><a href="../../tm/html/Corpus.html">Corpus</a></code> directly.</p>
+</td></tr>
+<tr valign="top"><td><code>inswords</code></td>
+<td>
+<p>A string vector of words will be added into dictionary.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The function <code>segmentCN</code> is originated from the '<code>Rwordseg</code>' package. 
+If '<code>Rwordseg</code>' was installed successfully (JRE and '<code>rJava</code>' package 
+are required), using 'Rwordseg::segmentCN' directly may be the easiest choice. 
+More detailed can be found in <a href="http://jianl.org/cn/R/Rwordseg.html">http://jianl.org/cn/R/Rwordseg.html</a>.
+</p>
+<p>In this package the function <code>segmentCN</code> is a wrapper of '<code>jiebaR</code>', 
+which can be easily installed from CRAN. This function <code>segmentCN</code> only 
+provide some basic functionalities of '<code>jiebaR</code>'. More detailed can be 
+found in <a href="http://qinwenfeng.com/jiebaR">http://qinwenfeng.com/jiebaR</a>.
+</p>
+<p>The function <code>insertWords</code> is used to add new words into dictionary temporarily.
+If you want to manage your own dictionary, please select either '<code>Rwordseg</code>' or 
+'<code>jiebaR</code>' package for segmentation.
+</p>
+
+
+<h3>Value</h3>
+
+<p>a vector of words (list if input is vecter) which have been segmented or the path of output file.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Jian Li &lt;<a href="mailto:rweibo@sina.com">rweibo@sina.com</a>&gt;
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>tmcn</em> version 0.2-12 <a href="00Index.html">Index</a>]</div>
+</body></html>

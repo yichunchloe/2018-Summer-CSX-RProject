@@ -1,0 +1,38 @@
+GBK                     GBK character set
+NTUSD                   National Taiwan University Semantic Dictionary
+SIMTRA                  Dictionary of simplified and traditional
+                        Chinese
+SPORT                   Sport news.
+STOPWORDS               Dictionary of Chinese stop words
+catUTF8                 Print the UTF-8 codes of a string.
+createDTM               Create a Chinese term-document matrix or a
+                        document-term matrix.
+createWordFreq          Create a word frequency data.frame.
+getCharset              Get the current encoding of the locale.
+isBIG5                  Indicate whether the encoding of input string
+                        is BIG5.
+isGB18030               Indicate whether the encoding of input string
+                        is GB18030.
+isGB2312                Indicate whether the encoding of input string
+                        is GB2312.
+isGBK                   Indicate whether the encoding of input string
+                        is GBK.
+isUTF8                  Indicate whether the encoding of input string
+                        is UTF-8.
+left                    Extract the left or right substrings in a
+                        character vector.
+revUTF8                 Revert UTF-8 string to Chinese character.
+segmentCN               Sengment a sentence.
+setchs                  Set locale to Simplified Chinese/Traditional
+                        Chinese/UK.
+stopwordsCN             Return Chinese stop words.
+strcap                  Mixed case capitalizing.
+strextract              Extract matched substrings by regular
+                        expression.
+strpad                  Pad a string to a specified length with a
+                        padding character.
+strstrip                Trim space of a string.
+toPinyin                Convert a chinese text to pinyin format.
+toTrad                  Convert a Chinese text from simplified to
+                        traditional characters and vice versa.
+toUTF8                  Convert encoding of Chinese string to UTF-8.
