@@ -5,11 +5,11 @@
 # Learning Progress:
 ## 7/4 Week1:
 ### In class:
-##### 建立 Github Account
+##### Create a Github Account
 ##### Create Repository
 ##### Use READ.md 
 ##### [Week1-Hw1](https://yichunchloe.github.io/2018-Summer-CSX-RProject/Week1/Hw1.html) 
-##### Notes: Rstudio/Rmarkdown步驟：Rstudio、save in the file、knit to html、setting: none -> master branch、/Week1/Hw1.html、[Name shown]（the link）
+##### Notes: Rstudio/Rmarkdown steps：Rstudio、save in the file、knit to html、setting: none -> master branch、/Week1/Hw1.html、[Name shown]（the link）
 
 ### At Home:
 ##### [DataCamp] Introduction to R 
