@@ -1,15 +1,17 @@
 
 # Self Introduction
 #### 大家好！我是就讀政大財管系一年級的林奕均，希望可以在這堂課好好學習程式語言！
+#### Hey! I'm Chloe, currently a freshman in NCCU, the department of Finance; I look forward to gaining more knowledge in computer languages.
 
 # Learning Progress:
 ## 7/4 Week1:
 ### In class:
 ##### Create a Github Account
-##### Create Repository
-##### Use READ.md 
-##### [Week1-Hw1](https://yichunchloe.github.io/2018-Summer-CSX-RProject/Week1/Hw1.html) 
-##### Notes: Rstudio/Rmarkdown steps：Rstudio、save in the file、knit to html、setting: none -> master branch、/Week1/Hw1.html、[Name shown]（the link）
+##### Create a Repository
+##### To know the usage of READ.md file
+##### [Week1-Hw1-Rmarkdown](https://yichunchloe.github.io/2018-Summer-CSX-RProject/Week1/Hw1.html) 
+##### Notes(Rstudio/Rmarkdown steps):
+##### Rstudio/ save in the file/ knit to html/ setting: none -> master branch/ added Week1/Hw1.html/ [Name shown]（the link）
 
 ### At Home:
 ##### [DataCamp] Introduction to R 
@@ -18,9 +20,15 @@
 ## 7/11 Week2:
 ### In class:
 ##### Introduction to Date Visualization
-##### to know what is a Package
-##### [Week2-DV practice](https://yichunchloe.github.io/2018-Summer-CSX-RProject/Week2/DV.html)
-##### Notes: Edit Rmarkdown to my learing notes
+##### To know what is a Package
+##### [Week2-Hw2-part1-DV practice](https://yichunchloe.github.io/2018-Summer-CSX-RProject/Week2/DV.html)
+
+##### Notes: 
+##### Edit Rmarkdown to my learing notes Save as R file
+##### GFT8*
+##### make a clear route to the file, for instant 
+##### R vs RMD: different language (RMD for 作業報告)
+##### 最後一個還不會
 
 ### At Home:
 ##### [Datacamp] Cleaning with R​
