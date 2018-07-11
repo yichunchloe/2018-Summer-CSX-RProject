@@ -17,7 +17,9 @@
 
 ## 7/11 Week2:
 ### In class:
-##### --
+##### Introduction to Date Visualization
+##### to know what is a Package
+##### [Week2-DV practice](https://yichunchloe.github.io/2018-Summer-CSX-RProject/Week2/DV.html)
 ##### Notes: Edit Rmarkdown to my learing notes
 
 ### At Home:
