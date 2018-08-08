@@ -1,0 +1,10 @@
+---
+title: 'Report: Titanic: 2nd degree families and majority voting'
+output: html_document
+---
+
+### Data From https://www.kaggle.com/erikbruin/titanic-2nd-degree-families-and-majority-voting/data
+```{r}
+TestData = read.csv('./DATA/test.csv')
+
+```

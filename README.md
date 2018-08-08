@@ -40,6 +40,23 @@
 
 ## 7/18 Week3:
 ### In class:
+##### 學習運用Kaggle
+##### 在Kaggle上找到感興趣的資料並摘錄其他作者的程式碼做成筆記
+### At home:
+
+## 7/25 Week4:
+### In class:
+### At home:
+
+## 8/1 Week5:
+### In class:
+##### 學習運用shiny
+### At home:
+##### project discussion 
+
+## 8/8 Week6:
+### In class:
+##### project presentation 
 
 
 
